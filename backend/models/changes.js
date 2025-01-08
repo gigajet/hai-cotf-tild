@@ -23,6 +23,7 @@ changeSchema.set('toJSON', {
   }
 })
 
-const Change=mongoose.model('Change', changeSchema)
+const LeftChange=mongoose.model('Left-Change', changeSchema)
+const RightChange=mongoose.model('Right-Change', changeSchema)
 
-module.exports=Change
+module.exports={LeftChange, RightChange}
