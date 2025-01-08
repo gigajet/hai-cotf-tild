@@ -1,0 +1,17 @@
+GET http://localhost:3000/api/change
+
+
+### 
+
+POST http://localhost:3000/api/change
+Content-Type: application/json
+
+{
+    "amount": -23,
+    "reason": "Mua đồ chơi ở ProzipLand",
+    "date": "2025-01-08"
+}
+
+###
+
+GET http://localhost:3000/api/change/2025/01
